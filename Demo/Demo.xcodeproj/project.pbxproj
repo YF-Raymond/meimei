@@ -13,6 +13,7 @@
 		4D22DA331D4381AA0072E436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22DA311D4381AA0072E436 /* Main.storyboard */; };
 		4D22DA351D4381AA0072E436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D22DA341D4381AA0072E436 /* Assets.xcassets */; };
 		4D22DA381D4381AA0072E436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22DA361D4381AA0072E436 /* LaunchScreen.storyboard */; };
+		4D22DA411D43823E0072E436 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22DA401D43823E0072E436 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4D22DA341D4381AA0072E436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D22DA371D4381AA0072E436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D22DA391D4381AA0072E436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D22DA3F1D43823E0072E436 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4D22DA401D43823E0072E436 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				4D22DA2B1D4381AA0072E436 /* AppDelegate.h */,
 				4D22DA2C1D4381AA0072E436 /* AppDelegate.m */,
+				4D22DA3F1D43823E0072E436 /* Person.h */,
+				4D22DA401D43823E0072E436 /* Person.m */,
 				4D22DA2E1D4381AA0072E436 /* ViewController.h */,
 				4D22DA2F1D4381AA0072E436 /* ViewController.m */,
 				4D22DA311D4381AA0072E436 /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				4D22DA301D4381AA0072E436 /* ViewController.m in Sources */,
 				4D22DA2D1D4381AA0072E436 /* AppDelegate.m in Sources */,
+				4D22DA411D43823E0072E436 /* Person.m in Sources */,
 				4D22DA2A1D4381AA0072E436 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
